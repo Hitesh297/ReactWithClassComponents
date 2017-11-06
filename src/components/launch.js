@@ -20,7 +20,6 @@ constructor(props) {
 	}
 
 	onButtonClick() {
-		debugger;
 		this.setState({term : this.state.term + 1 });
 	}
 }
